@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../../styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nivel 1</title>
+</head>
+<body class="levelPage">
+    <h1 class="h1Page">Hallar la distancia recorrida [x].</h1>
+    
+    <div class="containerPage">
+        <h2 class="h2Page">Datos</h2>
+        <p>X: 600m</p>
+        <p>Y: 300m</p>
+        <p>Velocidad del río respecto a tierra: 6m/s</p>
+        <p>Velocidad de la lancha respecto al río: 9m/s</p>
+    </div>&nbsp
+
+    <canvas class="canvasPage" id="relativo" width="601" height="300"></canvas>&nbsp
+
+    <p>¿Distancia Recorrida? [x]</p>
+    <input type="range" id="xfl" max="600" min="0" style="width: 600px;">
+    <p id="xflValor"></p>&nbsp
+
+    <div>
+        <button class="bStart" id="bStart" type="button">EMPEZAR</button> 
+        <button class="bReset" id="bReset" type="button">RESET</button>
+        <a href="../../index.html">
+            <button class="bHome" id="bHome" type="button">INICIO</button>
+        </a>
+    </div>&nbsp
+    
+    <script src="app.js"></script>
+</body>
+</html>

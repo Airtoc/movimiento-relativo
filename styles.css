@@ -1,0 +1,119 @@
+/* Estilo de Botones. */
+.bStart-large{
+    border-style: outset;
+    font: bold 15px arial, sans-serif;
+    color: white;
+    text-shadow: none;
+    background: #20a35b;
+    border-color: #20a35b;
+    height: 50px;
+    width: 400px;
+}
+.bReset-large{
+    border-style: outset;
+    font: bold 15px arial, sans-serif;
+    color: white;
+    text-shadow: none;
+    background: #f55929;
+    border-color: #f55929;
+    height: 50px;
+    width: 400px;
+}
+.bHome-large{
+    border-style: outset;
+    font: bold 15px arial, sans-serif;
+    color: white;
+    text-shadow: none;
+    border-color: #036085;
+    background: #036085;
+    height: 50px;
+    width: 400px;
+}
+.bStart{
+    border-style: outset;
+    font: bold 15px arial, sans-serif;
+    color: white;
+    text-shadow: none;
+    background: #20a35b;
+    border-color: #20a35b;
+    height: 30px;
+}
+.bReset{
+    border-style: outset;
+    font: bold 15px arial, sans-serif;
+    color: white;
+    text-shadow: none;
+    background: #f55929;
+    border-color: #f55929;
+    height: 30px;
+}
+.bHome{
+    border-style: outset;
+    font: bold 15px arial, sans-serif;
+    color: white;
+    text-shadow: none;
+    border-color: #036085;
+    background: #036085;
+    height: 30px;
+}
+/* Estilo de los Body. */
+.homePage{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #337aff;
+    align-items: center;
+}
+.levelPage{
+    padding-top: 0%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background-color:#385737;
+}
+/* Estilo de los H1. */
+.h1Home {
+    font: 40px impact;
+    text-shadow: 1px 1px white;
+}
+.h1Page{
+    color: white;
+    font: 25px impact;
+    text-shadow: 1px 1px black;
+}
+/* Estilo de los H2. */
+.h2Home{
+    font: 25px impact;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.h2Page{
+    text-align: center;
+    margin-top: 0;
+    color: #cc2d2d;
+    font: 20px impact;
+    margin-bottom: 0;
+}
+.h2Page-blank{
+    text-align: center;
+    margin-top: 0;
+    color: #ffffff;
+    font: 18px impact;
+    margin-bottom: 0;
+}
+/* Estilo de Canvas/Containers */
+.canvasPage{
+    border: 2px solid black;
+    background-color: #5d95e9;
+}
+.containerPage{
+    background-color: white;
+    border: 2px solid black;
+}
+/* Estilo de P */
+p{
+    text-align: left;
+    font: 15px impact;
+    margin: 1px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../../styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nivel 2</title>
+</head>
+<body class="levelPage">
+    <h1 class="h1Page">Hallar ángulo de salida para llegar de frente [Gradosº].</h1>
+
+    <div class="containerPage">
+        <h2 class="h2Page">Datos</h2>
+        <p>X: 600m</p>
+        <p>Y: 300m</p>
+        <p>Velocidad del río respecto a tierra: 2m/s</p>
+        <p>Velocidad de la lancha respecto al río: 4m/s</p>
+    </div>&nbsp
+
+    <canvas class="canvasPage" id="relativo-angle" width="600" height="300"></canvas>&nbsp
+
+    <label class="h2Page-blank" for="angulo">Ángulo de salida [Gradosº]:</label>
+    <input id="angleData" name="angulo" type="number" min="0" max="360">&nbsp
+
+    <div>
+        <button class="bStart" id="bStart" type="button">EMPEZAR</button> 
+        <button class="bReset" id="bReset" type="button">RESET</button>
+        <a href="../../index.html">
+            <button class="bHome" id="bHome" type="button">INICIO</button>
+        </a>
+    </div>&nbsp
+
+    <script src="app.js"></script>
+</body>
+</html>

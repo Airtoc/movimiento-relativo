@@ -1,0 +1,12 @@
+Para hallar el ángulo con el que debe salir la lancha, puedes recordar los conceptos de vectores.
+En esté caso tenemos 3 vectores. VLT = VLR + VRT. 
+Donde VLT (Velocidad de la Lancha respecto a Tierra) es el vector resultante.
+Donde VLR (Velocidad de la Lancha respecto al Río) apunta hacía la parte superior de la pantalla.
+Donde VRT (Velocidad del Río respecto a Tierra) apunta hacía la parte izquierda de la pantalla.
+Acomodando los vectores tenemos un triángulo rectángulo.
+Usando trigometría básica tenemos que el ángulo formado para que la lancha llegue de frente es Senθ = CatetoOpuesto / CatetoAdyacente.
+Donde CatetoOpuesto = VRT y CatetoAdyacente = VLR.
+Finalmente despejando, θ = ArcSen (VRT/VLR).
+Dando como resultado 30º, o en Radianes π/6. 
+En este caso en el juego se pedía un resultado en grados (30º).
+Ahora ya sabes con que ángulo debe salir la lancha para llegar de frente.
