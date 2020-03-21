@@ -1,10 +1,12 @@
+Tu Recorrido = Linea Morado.
+Recorrido Correcto = Linea Roja.
 Debes de recordar las ecuaciones de cinemática para ver que pasa tanto en X, como en Y.
 Ellas son: Yf = Yo + v*t (Para el eje Y) Xf = Xo + v*t (Para el eje X).
 ¡OJO! También tienes que mirar las velocidades que suceden en cada eje.
 Ten en cuenta que VLR es Velocidad de la Lancha respecto al Río (eje Y), y VRT es Velocidad del Río respecto a Tierra (eje X).
 Las ecuaciones quedarían así: Yf = Yo + VLR*t        Xf = Xo + VRT*t.
 Listo, ya casi lo logramos! Ahora reemplazaremos los datos conocidos, en este caso en el eje Y.
-300m = 0m + 9m/s*t, despejando t, nos queda: t = 300m / 9m/s, dando t = 33,3333333333s.
+300m = 0m + VLR*t, despejando t, nos queda: t = 300m / VLR, dando t.
 Ahora ya conociendo el tiempo, lo reemplazaremos en la ecuación Xf = Xo + VRT*t.
-Xf = 0 + 6m/s*33,3333333333s, dando como resultado Xf ≈ 200m.
+Xf = 0 + 6m/s*t, dando como resultado Xf.
 Ahora sabes cómo hallar la distancia que recorrió la lancha en X.
