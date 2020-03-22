@@ -20,8 +20,6 @@ bStart.addEventListener("click", saveDatos);
 bReset = document.getElementById("bReset");
 bReset.addEventListener("click", resetDatos);
 
-//Cálculos.
-
 //Variables User.
 var xUserS, vlrUserS;
 
@@ -30,13 +28,12 @@ var x = canvas.width-1;
 var y = canvas.height;
 var vrt = 6;
 var time, xCom, vrtFail;
-var fps = 10;
 var ypos, xpos;
 var yposf, xposf;
 
 function saveDatos () {
-    xUserS = parseInt(xUser.value);
     xUser.disabled = true;
+    xUserS = parseInt(xUser.value);
     vlrUserS = Math.floor(vlrUser.value);
     vlrUser.disabled = true;
     console.log(vlrUserS);

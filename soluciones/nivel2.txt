@@ -1,3 +1,5 @@
+Tu resultado = Lancha Roja.
+Resultado correcto = Lancha Azul.
 Para hallar el ángulo con el que debe salir la lancha, puedes recordar los conceptos de vectores.
 En esté caso tenemos 3 vectores. VLT = VLR + VRT. 
 Donde VLT (Velocidad de la Lancha respecto a Tierra) es el vector resultante.
